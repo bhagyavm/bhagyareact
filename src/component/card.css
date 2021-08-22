@@ -1,0 +1,25 @@
+.card_back{
+
+    transform: rotateY(180deg) scale(1.1);
+    background: #141414;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+
+}
+.card_back span{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card_name{
+    font-size: 32px;
+    line-height: 0.9;
+    font-weight: 700;
+}
+.card_name span{
+    font-size: 14px;
+}
